@@ -9,7 +9,7 @@ clash, flash, flask, flack, flock, clock, crock, crook, croon, crown, clown.
 
 As you might infer from the example above, there is no simple algorithm that generates a word ladder.   Rather, you have to search for a ladder by generating all of the possibilities. Doing so will give you an opportunity to use Python data structures like lists and dictionaries.
 
-Your program should first read in the file dictionary.txt Download dictionary.txtgiving it a large collection of words to work with.  All of the examples in the tests that your program will be given will be of lengths 4, 5 and 6, so you can discard all words that are not of one of those lengths.  However, you should write the program so that it is general enough to make it easy for you to change it to handle other word lengths.
+Your program should first read in the file dictionary.txt.  Download dictionary.txt giving it a large collection of words to work with. (Not included here because teacher did not grant continued access)  All of the examples in the tests that your program will be given will be of lengths 4, 5 and 6, so you can discard all words that are not of one of those lengths.  However, you should write the program so that it is general enough to make it easy for you to change it to handle other word lengths.
 
 You must then read in lines containing pairs of words from a second file named pairs.txt and print out the ladder for each pair or an indication that no ladder exists.  You should check that the input words are of the same length and that that length is in the range described above.  You can assume that every line in the text file will contain two words; you only need to check for potential length problems, as described above.
 
