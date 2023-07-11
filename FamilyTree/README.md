@@ -6,7 +6,7 @@ The project involves processing genealogy information found in GEDCOM files, a s
 
 #Given from teacher: There is a new folder within the course files, GEDCOM project,  that contains several GEDCOM (.ged) files.  It also includes a Python program, descendants.py Download descendants.py, that will be the starting point for you work on this project. (Not included here because teacher did not grant continued access) 
 
-The program reads in a GEDCOM file and builds a structure of objects that represent some of the information in the file, namely basic info about individuals and families.  It does this using two classes, Person and Family, which have obvious roles corresponding to their names.  More details can be found in the comments within the program.
+The program reads in a GEDCOM file and builds a structure of objects that represent some of the information in the file, namely basic info about individuals and families.  It does this using two classes, Person and Family, which have obvious roles corresponding to their names.  The project has extensive comments and pseudocode. 
 
 The functions processPerson() and processFamily() parse the GEDCOM file, leading to creation of Person and Family objects.  Many kinds of GEDCOM records are currently skipped by these functions.  One of your tasks will be to  interpret some of the skipped lines.
 
